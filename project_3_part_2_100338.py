@@ -598,6 +598,7 @@ fig2.update_yaxes(title='Emissão de Co<sub>2</sub> (g)')
 
 #CRIAR DASHBOARD
 app = dash.Dash(__name__)
+server = app.server
 app.layout = html.Div([
     
 #-------------------------------------    
